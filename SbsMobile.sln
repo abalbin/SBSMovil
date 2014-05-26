@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbsMobile.Tests", "SbsMobile.Tests\SbsMobile.Tests.csproj", "{EFF06247-685E-4A55-BB21-C6F5A350F90C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbsMobile.Shared", "SbsMobile.Shared\SbsMobile.Shared.csproj", "{CA042327-74A6-4658-8A1B-898CD2B86918}"
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "SbsMobile.Shared", "SbsMobile.Shared\SbsMobile.Shared.csproj", "{CA042327-74A6-4658-8A1B-898CD2B86918}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbsMobile.SharedPcl", "SbsMobile.SharedPcl\SbsMobile.SharedPcl.csproj", "{D95DF439-3786-433B-94DD-E0468026F5FB}"
 EndProject
@@ -17,10 +17,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{CA042327-74A6-4658-8A1B-898CD2B86918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA042327-74A6-4658-8A1B-898CD2B86918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA042327-74A6-4658-8A1B-898CD2B86918}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,17 +31,15 @@ Global
 		{D95DF439-3786-433B-94DD-E0468026F5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D95DF439-3786-433B-94DD-E0468026F5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D95DF439-3786-433B-94DD-E0468026F5FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43566F72-13DC-4326-AF24-F7A9C1FB593F}.Release|Any CPU.Deploy.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = SbsMobile.Droid\SbsMobile.Droid.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
