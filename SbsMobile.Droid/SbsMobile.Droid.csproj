@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43566F72-13DC-4326-AF24-F7A9C1FB593F}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SbsMobile.Droid</RootNamespace>
+    <AssemblyName>SbsMobile.Droid</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <TargetFrameworkVersion />
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\Components\xamandroidsupportv4-18-19.1.0\lib\android\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fragments\DatePickerDialogFragment.cs" />
+    <Compile Include="Fragments\TipoCambioFragment.cs" />
+    <Compile Include="Helpers\MyActionBarDrawerToggle.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\fontawesome-webfont.ttf" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\item_menu.axml" />
+    <AndroidResource Include="Resources\layout\TipoCambio.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SimpleListItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActionViewButton.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActionViewTextView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\values\themes.xml" />
+    <AndroidResource Include="Resources\values\Colors.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\ic_action_logo.png" />
+    <AndroidResource Include="Resources\drawable\ab_background.xml" />
+    <AndroidResource Include="Resources\drawable\btn_bg.xml" />
+    <AndroidResource Include="Resources\drawable\btn_bg_inactive.xml" />
+    <AndroidResource Include="Resources\drawable\btn_bg_normal.xml" />
+    <AndroidResource Include="Resources\drawable\btn_bg_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\discrete_shadow.xml" />
+    <AndroidResource Include="Resources\drawable\wrench.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cart.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\complete.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\configure.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\dummy_avatar.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\empty_basket.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\gallery_next.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\gallery_prev.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_basket.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_logo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\processing.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\user_default_avatar.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\wrench.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\cart.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\empty_basket.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\user_default_avatar.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cart.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\complete.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\configure.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\dummy_avatar.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\empty_basket.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\gallery_next.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\gallery_prev.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_basket.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_logo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\processing.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\user_default_avatar.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\blue_shirt.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\monkey.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\ProductImage.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\purple_shirt.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\shirt_image.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cart.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\complete.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\configure.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\dummy_avatar.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\empty_basket.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\gallery_next.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\gallery_prev.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_basket.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_logo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\processing.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\user_default_avatar.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\complete.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\configure.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\dummy_avatar.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\empty_basket.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\gallery_next.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\gallery_prev.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_basket.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_logo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\processing.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon2.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\drawer_shadow.9.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\ic_menu_help_holo_light.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\ic_menu_share_holo_light.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_menu_share_holo_light.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_menu_help_holo_light.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable\shadow_black.9.png" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\ic_action_logo.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\ic_action_logo.png" />
+    <AndroidResource Include="Resources\menu\tipocambio.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\ic_menu_month.png" />
+    <AndroidResource Include="Resources\drawable\btn_default_transparent.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\btn_default_transparent_normal.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_default_selected.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_default_pressed.9.png" />
+    <AndroidResource Include="Resources\drawable\ListViewBorder.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="xamandroidsupportv4-18">
+      <Visible>False</Visible>
+      <Version>19.1.0</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SbsMobile.SharedPcl\SbsMobile.SharedPcl.csproj">
+      <Project>{d95df439-3786-433b-94dd-e0468026f5fb}</Project>
+      <Name>SbsMobile.SharedPcl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
