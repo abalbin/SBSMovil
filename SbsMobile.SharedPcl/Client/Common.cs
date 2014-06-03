@@ -6,11 +6,11 @@ namespace SbsMobile.SharedPcl
 {
     public class Common
     {
-        public static async Task<string> GetJson(string request)
+        public static Task<string> GetJson(string request)
         {
-            using (var client = new HttpClient { BaseAddress = new Uri("http://vm-07:1654/api/") })
+			using (var client = new HttpClient { BaseAddress = new Uri("http://96.3.1.143:1654/api/") })
             {
-                return await client.GetStringAsync(request).ConfigureAwait(false);
+                return client.GetStringAsync(request);
             }
         }
     }

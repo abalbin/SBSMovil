@@ -57,7 +57,7 @@ namespace SbsMobile.iOS
             TableView.ReloadData();
         }
 
-        public TipoCambioViewController()
+		public TipoCambioViewController(IntPtr handle) : base (handle)
         {
             
         }

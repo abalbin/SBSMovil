@@ -179,7 +179,7 @@ Global
 		{EFF06247-685E-4A55-BB21-C6F5A350F90C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = SbsMobile.Droid\SbsMobile.Droid.csproj
+		StartupItem = SbsMobile.iOS\SbsMobile.iOS.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

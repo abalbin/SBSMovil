@@ -200,12 +200,6 @@
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SbsMobile.SharedPcl\SbsMobile.SharedPcl.csproj">
-      <Project>{D95DF439-3786-433B-94DD-E0468026F5FB}</Project>
-      <Name>SbsMobile.SharedPcl</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
@@ -214,4 +208,10 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <ProjectReference Include="..\SbsMobile.SharedPcl\SbsMobile.SharedPcl.csproj">
+      <Project>{D95DF439-3786-433B-94DD-E0468026F5FB}</Project>
+      <Name>SbsMobile.SharedPcl</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

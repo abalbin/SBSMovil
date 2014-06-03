@@ -97,12 +97,6 @@
     <BundleResource Include="Images\second%402x.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SbsMobile.SharedPcl\SbsMobile.SharedPcl.csproj">
-      <Project>{D95DF439-3786-433B-94DD-E0468026F5FB}</Project>
-      <Name>SbsMobile.SharedPcl</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
@@ -110,4 +104,10 @@
     <Reference Include="monotouch" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\SbsMobile.SharedPcl\SbsMobile.SharedPcl.csproj">
+      <Project>{D95DF439-3786-433B-94DD-E0468026F5FB}</Project>
+      <Name>SbsMobile.SharedPcl</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
