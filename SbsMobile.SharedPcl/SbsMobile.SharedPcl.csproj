@@ -39,6 +39,9 @@
     <Compile Include="Model\Moneda.cs" />
     <Compile Include="Model\TipoCambio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\Local.cs" />
+    <Compile Include="Model\Telefono.cs" />
+    <Compile Include="Client\LocalesClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

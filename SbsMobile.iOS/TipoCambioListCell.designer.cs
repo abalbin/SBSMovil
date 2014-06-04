@@ -16,15 +16,15 @@ namespace SbsMobile.iOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblCompra { get; set; }
+		MonoTouch.UIKit.UILabel lblCompra { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblMoneda { get; set; }
+		MonoTouch.UIKit.UILabel lblMoneda { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblVenta { get; set; }
+		MonoTouch.UIKit.UILabel lblVenta { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{

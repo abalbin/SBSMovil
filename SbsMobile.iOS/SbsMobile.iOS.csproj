@@ -81,23 +81,23 @@
       <DependentUpon>TipoCambioViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="ActionSheetDatePicker.cs" />
-    <Compile Include="TipoCambioListHelper.cs">
-      <DependentUpon>MainStoryboard.storyboard</DependentUpon>
-    </Compile>
     <Compile Include="TipoCambioListCell.cs" />
     <Compile Include="TipoCambioListCell.designer.cs">
       <DependentUpon>TipoCambioListCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListHelper.cs">
+      <DependentUpon>MainStoryboard.storyboard</DependentUpon>
+    </Compile>
+    <Compile Include="LocalesTableViewController.cs" />
+    <Compile Include="LocalesTableViewController.designer.cs">
+      <DependentUpon>LocalesTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocalesInfoViewController.cs" />
+    <Compile Include="LocalesInfoViewController.designer.cs">
+      <DependentUpon>LocalesInfoViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstViewController.cs" />
-    <Compile Include="FirstViewController.designer.cs">
-      <DependentUpon>FirstViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SecondViewController.cs" />
-    <Compile Include="SecondViewController.designer.cs">
-      <DependentUpon>SecondViewController.cs</DependentUpon>
-    </Compile>
     <BundleResource Include="Images\first.png" />
     <BundleResource Include="Images\second.png" />
     <BundleResource Include="Images\first%402x.png" />

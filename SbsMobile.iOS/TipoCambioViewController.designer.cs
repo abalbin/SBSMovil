@@ -16,15 +16,15 @@ namespace SbsMobile.iOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIBarButtonItem bbtnChangeDate { get; set; }
+		MonoTouch.UIKit.UIBarButtonItem bbtnChangeDate { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UINavigationItem nvgTipoCambio { get; set; }
+		MonoTouch.UIKit.UINavigationItem nvgTipoCambio { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITableView TipoCambioTableView { get; set; }
+		MonoTouch.UIKit.UITableView TipoCambioTableView { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{

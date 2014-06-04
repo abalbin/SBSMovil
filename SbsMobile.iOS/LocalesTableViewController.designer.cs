@@ -11,11 +11,19 @@ using System.CodeDom.Compiler;
 
 namespace SbsMobile.iOS
 {
-	[Register ("FirstViewController")]
-	partial class FirstViewController
+	[Register ("LocalesTableViewController")]
+	partial class LocalesTableViewController
 	{
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UITableView LocalesTableView { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
+			if (LocalesTableView != null) {
+				LocalesTableView.Dispose ();
+				LocalesTableView = null;
+			}
 		}
 	}
 }
