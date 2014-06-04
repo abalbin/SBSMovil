@@ -74,12 +74,20 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoCambioViewController.cs" />
     <Compile Include="TipoCambioViewController.designer.cs">
       <DependentUpon>TipoCambioViewController.cs</DependentUpon>
     </Compile>
-    <None Include="Info.plist" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ActionSheetDatePicker.cs" />
+    <Compile Include="TipoCambioListHelper.cs">
+      <DependentUpon>MainStoryboard.storyboard</DependentUpon>
+    </Compile>
+    <Compile Include="TipoCambioListCell.cs" />
+    <Compile Include="TipoCambioListCell.designer.cs">
+      <DependentUpon>TipoCambioListCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FirstViewController.cs" />
@@ -90,11 +98,14 @@
     <Compile Include="SecondViewController.designer.cs">
       <DependentUpon>SecondViewController.cs</DependentUpon>
     </Compile>
-    <InterfaceDefinition Include="MainStoryboard.storyboard" />
     <BundleResource Include="Images\first.png" />
     <BundleResource Include="Images\second.png" />
     <BundleResource Include="Images\first%402x.png" />
     <BundleResource Include="Images\second%402x.png" />
+    <BundleResource Include="Images\tipocambio.png" />
+    <BundleResource Include="Images\tipocambio%402x.png" />
+    <BundleResource Include="Images\locales.png" />
+    <BundleResource Include="Images\locales%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -109,5 +120,11 @@
       <Project>{D95DF439-3786-433B-94DD-E0468026F5FB}</Project>
       <Name>SbsMobile.SharedPcl</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="MainStoryboard.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json" />
   </ItemGroup>
 </Project>

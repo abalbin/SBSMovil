@@ -11,34 +11,34 @@ using System.CodeDom.Compiler;
 
 namespace SbsMobile.iOS
 {
-	[Register ("TipoCambioViewController")]
-	partial class TipoCambioViewController
+	[Register ("TipoCambioListCell")]
+	partial class TipoCambioListCell
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIBarButtonItem bbtnChangeDate { get; set; }
+		UILabel lblCompra { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UINavigationItem nvgTipoCambio { get; set; }
+		UILabel lblMoneda { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITableView TipoCambioTableView { get; set; }
+		UILabel lblVenta { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (bbtnChangeDate != null) {
-				bbtnChangeDate.Dispose ();
-				bbtnChangeDate = null;
+			if (lblCompra != null) {
+				lblCompra.Dispose ();
+				lblCompra = null;
 			}
-			if (nvgTipoCambio != null) {
-				nvgTipoCambio.Dispose ();
-				nvgTipoCambio = null;
+			if (lblMoneda != null) {
+				lblMoneda.Dispose ();
+				lblMoneda = null;
 			}
-			if (TipoCambioTableView != null) {
-				TipoCambioTableView.Dispose ();
-				TipoCambioTableView = null;
+			if (lblVenta != null) {
+				lblVenta.Dispose ();
+				lblVenta = null;
 			}
 		}
 	}
